@@ -15,5 +15,5 @@ exports.addComment = functions.https.onRequest((req, resp) => {
     const review = req.query.review
     const imageUrl = req.query.review
     console.log(' params parsed = ', name, email, review, imageUrl)
-    resp.send("this is response ")
+    resp.send("this is response 2 ")
 })
